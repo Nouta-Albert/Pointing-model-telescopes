@@ -4,7 +4,7 @@ This repository contains a comprehensive collection of Python scripts for astron
 
 ## Script descriptions
 
-### Pointing Model Development
+### I. Pointing Model Development
 
 **Tpoint_emulation_full.py**
 
@@ -116,7 +116,7 @@ A 3×3 grid of diagnostic plots showing:
 
 -----------------------------------------------------------------------------------------------------------------------
 
-### Data processing and analysis
+### II. Data processing and analysis
 **Coralie_analysis_script.py / Ecam_analysis_script.py**  
 These automated pipelines process telescope observation files to calculate pointing errors. They handle the complete workflow from plate solving FITS images to computing expected versus actual pointing positions. The scripts calculate azimuth and elevation errors while handling instrument-specific header formats and log solving statistics to CSV files. The ECAM version includes more robust error handling for diverse observation types.
 
@@ -137,7 +137,7 @@ A specialized tool for analyzing stellar elongation patterns that may indicate o
 
 -----------------------------------------------------------------------------------------------------------------------
 
-### Instrument calibration and verification
+### III. Instrument calibration and verification
 
 **Compute_transformation_matrix_coralie.ipynb**  
 This interactive notebook calculates the critical transformation between CORALIE's detector coordinates and telescope pointing coordinates. It measures star positions with known telescope offsets and computes the transformation matrix. The notebook format allows step-by-step validation of the transformation calculations.
