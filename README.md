@@ -114,6 +114,7 @@ A 3×3 grid of diagnostic plots showing:
 - Parameter correlation heatmap
 - Histograms of residuals for quality assessment
 
+-----------------------------------------------------------------------------------------------------------------------
 
 ### Data processing and analysis
 **Coralie_analysis_script.py / Ecam_analysis_script.py**  
@@ -134,6 +135,7 @@ This Jupyter Notebook performs plate solving on ECAM FITS images in an interacti
 **stars_elongation.py**  
 A specialized tool for analyzing stellar elongation patterns that may indicate optical or tracking issues. The script detects stars, measures their PSF shapes and orientations and overlays the expected alt-az grid based on derotator angle. It produces multi-panel visualizations showing both the full image context and detailed star analyses.
 
+-----------------------------------------------------------------------------------------------------------------------
 
 ### Instrument calibration and verification
 
