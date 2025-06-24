@@ -1,6 +1,6 @@
 # Pointing Model
 
-This repository contains a comprehensive collection of Python scripts for astronomical data analysis, focusing on telescope pointing accuracy, astrometric calibration and image analysis. The tools were developed primarily for the CORALIE and ECAM instruments at La Silla Observatory but can be adapted for other telescopes.
+This repository contains the scripts I developed during my Master’s thesis project, which focused on designing and implementing an automatic pointing model framework for the Euler Telescope at La Silla Observatory. The codebase includes routines for data extraction, pointing model construction using a custom Python-based emulation of the TPOINT model, residual analysis, model validation tools, and additional diagnostics such as field rotation and star elongation analysis. To the best of my knowledge, this is the first publicly available implementation of a TPOINT-like model in Python. I hope it can serve both as a practical toolkit and a learning resource for others working in astronomical instrumentation or telescope automation. The tools were developed primarily for the CORALIE and ECAM instruments on the EUler telescope at La Silla Observatory but can be adapted for other telescopes. For full details on the methodology and context, you can access the thesis manuscript here: https://1drv.ms/b/c/8c0552583c50cd59/Ec80tP1h7G9BoY9CqG4-bFwB3IvmEx3xr4MQdE3A3gaDzQ?e=p7YwIy and watch the recorded thesis defense presentation here: https://youtu.be/jAweU7BmVwM?si=8z-KtTzvGopoLIz4
 
 ## Script descriptions
 
