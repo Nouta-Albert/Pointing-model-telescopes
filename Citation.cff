@@ -1,16 +1,18 @@
 cff-version: 1.2.0
 message: "If you use this set of scripts in your research, please cite it as follows:"
-title: Euler telescope pointing model calibration toolkit
+title: "Euler telescope pointing model calibration toolkit"
 version: 1.0.0
 date-released: 2025-06-22
 authors:
-Nouta Albert Einstein
-    affiliation: Geneva Observatory, University of Geneva
-  This repository contains the Python scripts developed as part of the Master’s thesis project titled
+  - family-names: "Nouta"
+    given-names: "Albert Einstein"
+    affiliation: "Geneva Observatory, University of Geneva"
+abstract: |
+  This repository contains the Python scripts developed as part of my Master’s thesis project titled
   "Automatic Pointing Model for Euler" at the University of Geneva. It includes tools for pointing offset
   analysis, model construction, TPOINT-style emulation in Python and diagnostics for telescope calibration.
   These scripts were applied to the Euler Telescope at La Silla and are provided to support reproducibility
   and future development.
 type: software
-repository-code: https://gitlab.com/beyondscience004-group/pointing-model-for-telescope  
-license: BSD-3-Clause
+repository-code: "https://gitlab.com/beyondscience004-group/pointing-model-for-telescope"
+license: "BSD-3-Clause"
